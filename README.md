@@ -16,22 +16,6 @@ Aplikasi ini dibangun menggunakan Golang, PostgreSQL, dan Docker untuk deploymen
 - Logrus (Logging)
 - Argument Parser (flag) (Konfigurasi REST API host & port)
 
-backend-service/
-│── cmd/                # Entry point aplikasi (main.go)
-│── config/             # Konfigurasi database, logger, dan argument parser
-│── internal/           # Business logic & domain services
-│   ├── constant/       # Berisi constant yang di pakai dalam code
-│   ├── controllers/    # Handler untuk request API
-│   ├── repositories/   # Operasi database (CRUD) dengan interface
-│   ├── services/       # Business logic dengan interface
-│   ├── models/         # Struct model database
-│── routes/             # Routing API
-│── util/                # Utility/helper functions
-│── go.mod              # Module Go
-│── Dockerfile          # Konfigurasi Docker
-│── docker-compose.yml  # Orkestrasi Docker container
-│── .env                # Environment variables
-
 
 🚀 Menjalankan Aplikasi
 1️⃣ Clone Repository
