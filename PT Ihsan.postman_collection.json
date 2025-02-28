@@ -1,0 +1,103 @@
+{
+	"info": {
+		"_postman_id": "36306be8-9381-4339-a83f-600c9f114a85",
+		"name": "PT Ihsan",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7308725"
+	},
+	"item": [
+		{
+			"name": "Daftar",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nama\": \"dicki\",\n    \"nik\" : \"12345\",\n    \"no_hp\": \"0888888\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9000/api/daftar",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"daftar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Tabung",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"no_rekening\": \"99DB476BEBC3\",\n    \"nominal\": 5000\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9000/api/tabung",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"tabung"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Tarik",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"no_rekening\": \"99DB476BEBC3\",\n    \"nominal\": 5000\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9000/api/tarik",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"tarik"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
