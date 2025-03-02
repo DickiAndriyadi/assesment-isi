@@ -98,6 +98,29 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Cek Saldo",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9000/api/saldo/99DB476BEBC3",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"saldo",
+						"99DB476BEBC3"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
