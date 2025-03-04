@@ -116,7 +116,7 @@ docker-compose down
 ## 🔎 Pengujian API dengan Postman atau cURL
 
 ### 📌 1️⃣ Registrasi Nasabah
-- Endpoint: POST /api/v1/daftar
+- Endpoint: POST /api/daftar
 - Request Body:
 ```
 {
@@ -136,7 +136,7 @@ docker-compose down
 
 
 ### 📌 2️⃣ Menabung
-- Endpoint: POST /api/v1/tabung
+- Endpoint: POST /api/tabung
 - Request Body:
 
 ```
@@ -155,7 +155,7 @@ docker-compose down
 ```
 
 ### 📌 3️⃣ Penarikan Dana
-- Endpoint: POST /api/v1/tarik
+- Endpoint: POST /api/tarik
 - Request Body:
 
 ```
@@ -174,7 +174,7 @@ docker-compose down
 ```
 
 ### 📌 4️⃣ Cek Saldo
-- Endpoint: GET /api/v1/saldo/99A1B2C3D
+- Endpoint: GET /api/saldo/99A1B2C3D
 - Response (200 OK):
 
 ```
